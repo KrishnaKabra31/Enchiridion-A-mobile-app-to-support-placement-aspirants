@@ -1,0 +1,77 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.it.enchiridion11.Compsel"
+    android:id="@+id/Compsel">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/Siemens"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Quiz_1"
+                    tools:ignore="HardcodedText"
+                    android:background="#3341ABE8"
+                    android:textColor="#ff8a80"/>
+
+                <Button
+                    android:id="@+id/Wipro"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Quiz_2"
+                    tools:ignore="HardcodedText"
+                    android:background="#3341ABE8"
+                    android:textColor="#ff8a80"/>
+
+                <Button
+                    android:id="@+id/ibm"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Quiz_3"
+                    tools:ignore="HardcodedText"
+                    android:background="#3341ABE8"
+                    android:textColor="#ff8a80"/>
+
+                <Button
+                    android:id="@+id/infosys"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Quiz_4"
+                    tools:ignore="HardcodedText"
+                    android:background="#3341ABE8"
+                    android:textColor="#ff8a80"/>
+
+                <Button
+                    android:id="@+id/tcs"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:text="Quiz_5"
+                    tools:ignore="HardcodedText"
+                    android:background="#3341ABE8"
+                    android:textColor="#ff8a80"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

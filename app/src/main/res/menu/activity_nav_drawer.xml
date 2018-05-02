@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@mipmap/ic_question_answer_black_24dp"
+            android:title="Discuss"
+            />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_dns_black_24dp"
+            android:title="Quiz" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/ic_chrome_reader_mode_black_24dp"
+            android:title="Project Works" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@mipmap/ic_account_balance_black_24dp"
+            android:title="Interview Questions" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@mipmap/ic_message_black_24dp"
+                android:title="Write to Us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@mipmap/ic_supervisor_account_black_24dp"
+                android:title="About Developers" />
+            <item android:title="Logout"
+                android:icon="@mipmap/ic_power_settings_new_black_24dp"
+                android:id="@+id/nav_logout"/>
+
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "642602292693",
+    "firebase_url": "https://enchiridion-e3a1e.firebaseio.com",
+    "project_id": "enchiridion-e3a1e",
+    "storage_bucket": "enchiridion-e3a1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642602292693:android:ff7e8f450a482ba0",
+        "android_client_info": {
+          "package_name": "com.example.it.enchiridion11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "642602292693-smbdvfajjvdhaleg1k37omnagv17qr8b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.it.enchiridion11",
+            "certificate_hash": "904b246db1646145045954789bad26bd441cdcc0"
+          }
+        },
+        {
+          "client_id": "642602292693-q8svaohugpncoilock5hdu41g5draelg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCVNabRBb4tPtuIC328ZxO56Bi41I7buw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "642602292693-q8svaohugpncoilock5hdu41g5draelg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
